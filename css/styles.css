@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;
+}
+
+.messages {
+  min-height: 100%;
+  margin-bottom: -100px;
+}
+
+.messages .msg {
+  padding-top: 5px;
+  display: flex;
+}
+
+.messages .msg .user-avatar,
+.messages .msg .user-no-avatar {
+  width: 50px;
+  height: 50px;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.messages .msg .user-no-avatar svg {
+  fill: white;
+  width: 100%;
+}
+
+.messages .msg .msg-user {
+  color: #fff;
+}
+
+.messages .msg .msg-replies {
+  font-size: 14px;
+  color: var(--primary);
+}
+
+.new {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  padding: 5px;
+  width: 100%;
+ }
+
+.push, .new {
+  height: 100px;
+}
+
+.new .new-message {
+  width: 85%;
+}
+
+.new .send {
+  width: 15%;
+}
